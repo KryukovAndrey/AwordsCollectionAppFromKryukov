@@ -13,6 +13,8 @@
 		55B5463824E0892400E427F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B5463724E0892400E427F3 /* Assets.xcassets */; };
 		55B5463B24E0892400E427F3 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 55B5463A24E0892400E427F3 /* Preview Assets.xcassets */; };
 		55B5463E24E0892400E427F3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 55B5463C24E0892400E427F3 /* LaunchScreen.storyboard */; };
+		55B5464924E0904600E427F3 /* StopCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5464824E0904600E427F3 /* StopCircle.swift */; };
+		55B5464B24E09D9600E427F3 /* PedestrianCrossing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55B5464A24E09D9600E427F3 /* PedestrianCrossing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		55B5463A24E0892400E427F3 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		55B5463D24E0892400E427F3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		55B5463F24E0892400E427F3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		55B5464824E0904600E427F3 /* StopCircle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopCircle.swift; sourceTree = "<group>"; };
+		55B5464A24E09D9600E427F3 /* PedestrianCrossing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PedestrianCrossing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +63,8 @@
 				55B5463124E0892100E427F3 /* AppDelegate.swift */,
 				55B5463324E0892100E427F3 /* SceneDelegate.swift */,
 				55B5463524E0892100E427F3 /* ContentView.swift */,
+				55B5464824E0904600E427F3 /* StopCircle.swift */,
+				55B5464A24E09D9600E427F3 /* PedestrianCrossing.swift */,
 				55B5463724E0892400E427F3 /* Assets.xcassets */,
 				55B5463C24E0892400E427F3 /* LaunchScreen.storyboard */,
 				55B5463F24E0892400E427F3 /* Info.plist */,
@@ -147,6 +153,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				55B5463224E0892100E427F3 /* AppDelegate.swift in Sources */,
+				55B5464B24E09D9600E427F3 /* PedestrianCrossing.swift in Sources */,
+				55B5464924E0904600E427F3 /* StopCircle.swift in Sources */,
 				55B5463424E0892100E427F3 /* SceneDelegate.swift in Sources */,
 				55B5463624E0892100E427F3 /* ContentView.swift in Sources */,
 			);
